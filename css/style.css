@@ -1,0 +1,361 @@
+        * {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            border: none;
+            word-wrap: break-word;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        button {
+            cursor: pointer;
+        }
+        
+        a:link {
+            text-decoration: none !important;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        p {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .navbar {
+            padding: 25px;
+            background-color: #262626;
+            box-shadow: -1px 5px 17px 4px rgb(0 0 0 / 50%);
+        }
+        
+        .nav-link {
+            color: white;
+        }
+        
+        .nav-link:hover {
+            color: white;
+        }
+        
+        .box {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding: 30px 50px;
+            max-width: 400px;
+            width: 100%;
+            background: #202020;
+            box-shadow: 0px 4px 28px 14px rgba(0, 0, 0, 0.25);
+        }
+        
+        .avisos {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding: 30px 50px;
+            width: 100%;
+            max-width: 850px;
+            background: #202020;
+            box-shadow: 0px 4px 28px 14px rgba(0, 0, 0, 0.25);
+        }
+        
+        .avisos img {
+            width: 100%;
+            max-width: 100px i !important;
+        }
+        
+        .box2 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding: 30px;
+            max-width: 850px;
+            width: 100%;
+            background: #202020;
+            box-shadow: 0px 4px 28px 14px rgba(0, 0, 0, 0.25);
+        }
+        
+        #perguntas1 {
+            display: inline;
+        }
+        
+        #perguntas2 {
+            display: none;
+        }
+        
+        .conteudo {
+            height: 100vh;
+            background-color: #202020;
+            background-image: url(../img/backg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .avisos span {
+            color: #6600ff;
+            ;
+        }
+        
+        .conteudo img {
+            width: 100%;
+            max-width: 227px;
+        }
+        
+        .main {
+            height: 100%;
+            background-color: #202020;
+            background-image: url(../img/backg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .btn-voltar {
+            color: white;
+            background-color: #303030;
+        }
+        
+        .item-form input {
+            outline-style: none;
+            border: none;
+            width: 100%;
+            height: 35px;
+            border-radius: 3px;
+        }
+        
+        .item-form input {
+            outline-style: none;
+            border: none;
+            width: 100%;
+            height: 35px;
+            border-radius: 3px;
+        }
+        
+        .boxform button {
+            font-size: 14px;
+            width: 120px;
+            height: 40px;
+            border-radius: 5px;
+        }
+        
+        .item-formlist input,
+        .item-formlist select {
+            outline-style: none;
+            border: none;
+            width: 320px;
+            height: 40px;
+            border-radius: 3px;
+        }
+        
+        .boxformlist button {
+            font-size: 14px;
+            width: 120px;
+            height: 40px;
+            border-radius: 5px;
+        }
+        
+        .item-formlist {
+            max-width: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .box2 h1 {
+            margin-top: 30px;
+            font-size: 20;
+            color: white;
+            text-align: center;
+        }
+        
+        .box2 h2 {
+            color: white;
+        }
+        
+        .btn-login {
+            color: white;
+            background-color: #6600ff;
+        }
+        
+        .btn-registro {
+            color: #696969;
+            background-color: white;
+        }
+        
+        .boxform label {
+            color: #595959;
+        }
+        
+        .boxformlist label {
+            color: white;
+        }
+        
+        .boxform span {
+            color: #8f8f8f;
+            font-size: 14px;
+        }
+        
+        .boxformlist span {
+            color: #8f8f8f;
+            font-size: 14px;
+        }
+        
+        p {
+            color: #595959;
+        }
+        
+        footer {
+            box-shadow: -9px 10px 17px 4px rgb(0 0 0 / 50%);
+            text-align: end;
+            padding: 25px;
+            background-color: #262626;
+        }
+        
+        footer img {
+            width: 100%;
+            max-width: 150px;
+        }
+        
+        .adminbox {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
+            background: #202020;
+            box-shadow: 0px 4px 28px 14px rgba(0, 0, 0, 0.25);
+        }
+        
+        .whitelistbox {
+            margin-top: 50px;
+            padding: 30px;
+            max-width: 800px;
+            width: 100%;
+            background: #202020;
+            box-shadow: 0px 4px 28px 14px rgba(0, 0, 0, 0.25);
+        }
+        
+        .whitelistcorrigir {
+            background-color: #202020;
+            background-image: url(../img/backg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .whitelistcorrigir h1 {
+            color: white;
+            margin-top: 50px;
+        }
+        
+        .whitelistcorrigir h2,
+        .whitelistcorrigir h3 {
+            color: white;
+        }
+        
+        .whitelistcorrigir span {
+            color: #6600ff;
+        }
+        
+        .whitelistcorrigir span2 {
+            color: #40FF75;
+            font-size: 20;
+        }
+        
+        .cx {
+            width: 405px !important;
+        }
+        
+        .btn-aceitar {
+            width: 150px;
+            border-radius: 10px;
+            height: 64px;
+            color: white;
+            background-color: #42730B;
+        }
+        
+        .btn-negar {
+            width: 150px;
+            border-radius: 10px;
+            height: 64px;
+            color: white;
+            background-color: #FF0000;
+        }
+        
+        .avatar {
+            border-radius: 100% !important;
+            max-width: 50px;
+            max-height: 50px;
+            min-height: 50px;
+            min-width: 50px;
+        }
+        
+        .bordernav {
+            border-right: 2px solid white;
+        }
+        
+        .perfil p {
+            font-size: 26px;
+            color: white;
+        }
+        
+        .perfilsenha input {
+            border: 2px solid #6600ff;
+            height: 45px;
+            width: 300px;
+            border-radius: 10px;
+        }
+        
+        .perfilsenha button {
+            background-color: #6600ff;
+            Width: 195px;
+            Height: 55px;
+            color: white;
+        }
+        
+        .perfil-alterar {
+            background-color: #6600ff;
+            color: white;
+            width: 210px;
+            height: 40px;
+            border-radius: 10px;
+        }
+        
+        .perfil img {
+            border: 3px solid #6600ff;
+            border-radius: 100%;
+            max-width: 220px;
+            min-width: 220px;
+            max-height: 220px;
+            min-height: 220px;
+            height: 220px;
+            width: 220px;
+        }
+        
+        .perfiline {
+            margin-bottom: 80px;
+            margin-top: 50px;
+            width: 100%;
+            height: 3px;
+            background-color: #6600FF;
+        }
+        
+        .perfilsenha button {
+            border-radius: 10px;
+            font-size: 18px;
+        }
+        
+        .perfilsenha input {
+            text-align: center;
+            font-size: 22px;
+            color: black;
+            font-weight: regular;
+        }
+        
+        .perfilsenha input::placeholder {
+            text-align: center;
+            font-size: 22px;
+            color: black;
+            font-weight: bold;
+        }
